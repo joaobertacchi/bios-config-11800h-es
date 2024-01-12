@@ -1,1 +1,52 @@
 # bios-config-11800h-es
+
+- Advanced -> Power & Performance -> Boot performance mode: Turbo performance
+- Advanced -> Power & Performance -> CPU Power Management Control -> View/Configure Turbo Options -> Power Limit 1 Override: Enabled
+- Advanced -> Power & Performance -> CPU Power Management Control -> View/Configure Turbo Options -> Power Limit 1: 90000
+- Advanced -> Power & Performance -> CPU Power Management Control -> View/Configure Turbo Options -> Power Limit 2 Override: Enabled
+- Advanced -> Power & Performance -> CPU Power Management Control -> View/Configure Turbo Options -> Power Limit 2: 90000
+- Advanced -> Power & Performance -> CPU Power Management Control -> View/Configure Turbo Options -> 1-Core: 45
+- Advanced -> Power & Performance -> CPU Power Management Control -> View/Configure Turbo Options -> 2-Core: 45
+- Advanced -> Power & Performance -> CPU Power Management Control -> View/Configure Turbo Options -> 3-Core: 45 (era 44 antes do PTM7950)
+- Advanced -> Power & Performance -> CPU Power Management Control -> View/Configure Turbo Options -> 4-Core: 45 (era 43 antes do PTM7950)
+- Advanced -> Power & Performance -> CPU Power Management Control -> View/Configure Turbo Options -> 5-Core: 44 (era 42 antes do PTM7950)
+- Advanced -> Power & Performance -> CPU Power Management Control -> View/Configure Turbo Options -> 6-Core: 44 (era 41 antes do PTM7950)
+- Advanced -> Power & Performance -> CPU Power Management Control -> View/Configure Turbo Options -> 7-Core: 43 (era 40 antes do PTM7950)
+- Advanced -> Power & Performance -> CPU Power Management Control -> View/Configure Turbo Options -> 8-Core: 43 (era 40 antes do PTM7950)
+- Advanced -> Power & Performance -> CPU Power Management Control -> View/Configure Turbo Options -> Energy Efficient Turbo: Enabled
+- Advanced -> Power & Performance -> CPU Power Management Control -> Platform PL1 Enable: Enabled
+- Advanced -> Power & Performance -> CPU Power Management Control -> Platform PL1 Power: 90000
+- Advanced -> Power & Performance -> CPU Power Management Control -> Platform PL2 Enable: Enabled
+- Advanced -> Power & Performance -> CPU Power Management Control -> Platform PL2 Power: 90000
+- Advanced -> Power & Performance -> CPU Power Management Control -> CPU Lock Configuration -> CFG Lock: Disabled
+- Advanced -> Power & Performance -> CPU Power Management Control -> CPU Lock Configuration -> Overclocking Lock: Disabled
+- Advanced -> Overclocking Performance Menu -> Overclocking Feature: Enabled
+- Advanced -> Overclocking Performance Menu -> CPU BCLK OC Frequency: 10365
+- Advanced -> Overclocking Performance Menu -> Processor -> Core Max OC Ratio: 50
+- Advanced -> Overclocking Performance Menu -> Processor -> Core Voltage Offset: 30
+- Advanced -> Overclocking Performance Menu -> Processor -> Offset Prefix: -
+- Advanced -> Overclocking Performance Menu -> Uncore -> Uncore Voltage Offset: 80
+- Advanced -> Overclocking Performance Menu -> Uncore -> Offset Prefix: +
+- Advanced -> Super IO Configuration -> Serial Port 1 configuration -> Serial Port: Disabled
+- Advanced -> PCI SubSystem Settings -> Re-size bar support: Enabled (se tiver placa de video discreta da AMD)
+- Chipset -> System Agent (SA) Configuration -> Memory Configuration -> Memory -> Memory Voltage: 1.35
+- Chipset -> System Agent (SA) Configuration -> Memory Configuration -> Memory -> Memory profile: Custom profile
+- Chipset -> System Agent (SA) Configuration -> Memory Configuration -> Memory -> Memory Reference Clock: 100
+- Chipset -> System Agent (SA) Configuration -> Memory Configuration -> Memory -> Memory Ratio: 32
+- Chipset -> System Agent (SA) Configuration -> Memory Configuration -> Memory -> tCL: 16
+- Chipset -> System Agent (SA) Configuration -> Memory Configuration -> Memory -> tRCD/tRP: 20
+- Chipset -> System Agent (SA) Configuration -> Memory Configuration -> Memory -> tRAS: 26
+- Chipset -> System Agent (SA) Configuration -> Memory Configuration -> Memory -> tCWL: 16
+- Chipset -> System Agent (SA) Configuration -> Memory Configuration -> Memory -> tFAW: 26
+- Chipset -> System Agent (SA) Configuration -> Memory Configuration -> Memory -> tREFI: 24500
+- Chipset -> System Agent (SA) Configuration -> Memory Configuration -> Memory -> tRFC: 470
+- Chipset -> System Agent (SA) Configuration -> Memory Configuration -> Memory -> tRRD: 0
+- Chipset -> System Agent (SA) Configuration -> Memory Configuration -> Memory -> tRTP: 12
+- Chipset -> System Agent (SA) Configuration -> Memory Configuration -> Memory -> tWR: 24
+- Chipset -> System Agent (SA) Configuration -> Memory Configuration -> Memory -> tWTR: 0
+- Chipset -> System Agent (SA) Configuration -> Memory Configuration -> Memory -> NMode: 1
+- Chipset -> System Agent (SA) Configuration -> Memory Configuration -> Memory -> Memory Voltage: 1.45
+- Chipset -> System Agent (SA) Configuration -> Memory Configuration -> Sets the gear ratio when SAGV is disabled: 1
+- Chipset -> System Agent (SA) Configuration -> Graphics Configuration -> Primary Display: PEG Slot (se usar placa discreta)
+- Chipset -> System Agent (SA) Configuration -> Graphics Configuration -> Internal Graphics: Disabled (se usar placa discreta)
+- Chipset -> PCH-IO Configuration -> SPD Write Disable: FALSE
